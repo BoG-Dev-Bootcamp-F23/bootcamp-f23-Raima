@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@200&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.lineHeading {
+  font-size: 50px;
+  margin: 15px;
+  font-weight: bold;
+  
+}
+
+.mainInfo {
+  display: flex;
+  border-top: 2px solid black;
+}
+
+.navbar-container {
+  width: 30%;
+  background-color: black;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: white;
+  margin-right: 70px;
+}
+
+.select-station {
+  font-size: 15px;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.options {
+  width: 70%;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+.features {
+  width: 70%;
+}
+
+.button-top {
+  width: 150px;
+  margin: 15px 10px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid black; 
+}
+
+.train-container {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.marta-logo {
+  width: 120px;
+}
+
+.right-in-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.source-dest-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 20px;
+}
+
+.line-status-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.station {
+  font-size: 20px;
+}
+
+.arrow-icon {
+  width: 30px;
+}
+
+.line-button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.on-time {
+  font-size: 15px;
+  margin: 0;
+}
+
+.time-left {
+  font-size: 30px;
+  color: green;
+  margin-right: 20px;
+}
