@@ -1,5 +1,4 @@
 import martaLogo from '../Marta.png';
-import arrow from '../arrow.png';
 
 export default function Train(props) {
     const { trainData } = props;
