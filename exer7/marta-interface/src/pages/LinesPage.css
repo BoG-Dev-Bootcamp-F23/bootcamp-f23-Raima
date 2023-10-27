@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@200&display=swap');
+
+body {
+  text-align: center;
+  font-family: Helvetica, sans-serif, sans-serif;
+}
+
+.linesPage {
+    margin-top: 5px;
+    font-family: "Oswald", sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.line-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.line-b {
+  padding: 10px 50px 10px 50px;
+}
+
+.lineHeading {
+  font-size: 50px;
+  margin: 5px;
+  font-weight: bold;
+  border-top: 2px solid #b6b6b6;
+}
+
+.mainInfo {
+  display: flex;
+  border-top: 2px solid #b6b6b6;
+}
+
+.navbar-container {
+  width: 30%;
+  background-color: black;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: white;
+  margin-right: 70px;
+}
+
+.select-station {
+  font-size: 15px;
+  padding-left: 30px;
+  padding-bottom: 19px;
+  margin: 0;
+  color: #b6b6b6;
+}
+
+.options {
+  width: 70%;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.features {
+  width: 70%;
+}
+
+.buttons-container { 
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 15px 5px;
+}
+
+.selected-btn {
+  width: 150px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.not-selected-btn {
+  width: 150px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.train-container {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.marta-logo {
+  width: 120px;
+}
+
+.right-in-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.source-dest-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 20px;
+}
+
+.line-status-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.station {
+  font-size: 20px;
+}
+
+.arrow-icon {
+  width: 30px;
+}
+
+.line-button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.on-time {
+  font-size: 15px;
+  margin: 0;
+}
+
+.time-left {
+  font-size: 30px;
+  color: green;
+  margin-right: 20px;
+}
